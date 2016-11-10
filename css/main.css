@@ -15,8 +15,13 @@ body {
   width: 100%;
 }
 
+.circle {
+  float: left;
+}
+
 .banner {
   position: relative;
+  max-height: 500px;
 }
 
 h2 {
