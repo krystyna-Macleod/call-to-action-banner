@@ -7,10 +7,18 @@ html {
 }
 
 body {
-
+  margin: 0;
 }
 
-.img-flex{
+.img-flex {
   display: block;
   width: 100%;
+}
+
+.banner {
+  position: relative;
+}
+
+h2 {
+  font-size: 3rem;
 }
