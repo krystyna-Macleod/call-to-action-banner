@@ -21,10 +21,16 @@ body {
 }
 
 .content {
+  float: right;
   position: absolute;
   top: 50px;
   left: 50%;
   transform: translateX(-15%);
+  max-width: 50%;
+}
+
+.content-2 {
+  float: left;
 }
 
 .circle {
@@ -32,7 +38,11 @@ body {
   top: 50px;
   max-width: 50%;
   overflow: hidden;
-  transform: translateX(-15%);
+  transform: translate(15%);
+}
+
+.circle-1 {
+  float: right;
 }
 
 h2 {
