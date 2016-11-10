@@ -5,3 +5,12 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+
+}
+
+.img-flex{
+  display: block;
+  width: 100%;
+}
