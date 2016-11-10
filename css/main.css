@@ -15,13 +15,24 @@ body {
   width: 100%;
 }
 
-.circle {
-  float: left;
-}
-
 .banner {
   position: relative;
   max-height: 500px;
+}
+
+.content {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-15%);
+}
+
+.circle {
+  position: absolute;
+  top: 50px;
+  max-width: 50%;
+  overflow: hidden;
+  transform: translateX(-15%);
 }
 
 h2 {
@@ -33,4 +44,28 @@ p {
   font-size: 1.5rem;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border: #333 3px solid;
+  margin: 0 0 1.5rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border: #333 solid;
 }
